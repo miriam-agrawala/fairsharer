@@ -21,7 +21,6 @@ def fair_sharer(values, num_iterations, share=0.1):
     """
     # code
     
-
     for num in range(num_iterations):
         
         max_value = max(values)
