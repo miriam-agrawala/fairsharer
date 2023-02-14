@@ -29,8 +29,7 @@ def fair_sharer(values, num_iterations, share=0.1):
             
             if value == max_value:
                 max_index = i
-
-        
+      
         if max_value == values[-1]:        
             values[0] = values[0] + max_value*share   
         
